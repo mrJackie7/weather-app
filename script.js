@@ -30,7 +30,7 @@ const weather = {
     document.querySelector('.humidity').innerHTML = `Humidity: ${humidity}%`
     document.querySelector('.wind').innerHTML = `Wind speed: ${speed} km/h`
     document.querySelector('.weather').classList.remove('loading')
-    document.body.style.backgroundImage = `url(./assets/img/${icon}.png)`
+    document.body.style.backgroundImage = `url(./assets/img/${icon}.webp)`
   },
   search: function () {
     this.fetchWeather(document.querySelector('.search-bar').value)
