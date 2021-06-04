@@ -1,5 +1,5 @@
 const weather = {
-  API_KEY: 'ca5406c6436be6088bea7f9acdad73b6',
+  API_KEY: 'YOUR_API_KEY_GOES_HERE',
   fetchWeather: async function (city) {
     try {
       const response = await fetch(
